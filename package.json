@@ -1,0 +1,11 @@
+{
+  "name": "memorialnetwork",
+  "version": "0.0.1",
+  "description": "Memorial University Social Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
