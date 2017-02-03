@@ -22,6 +22,11 @@ router.get('/register', function(req, res, next){
 	res.render('register', { title: "Register"});
 });
 
+//Display register page
+router.get('/login', function(req, res, next){
+	res.render('login', { title: "Login"});
+});
+
 //process register post
 router.post('/register', function(req, res, next){
 	var users = req.db.get('users');

@@ -32,6 +32,7 @@ app.use(function(req,res,next){
     next();
 });
 
+app.use(express.static(__dirname + '/public'));
 app.use('/', index);
 app.use('/users', users);
 //allows access to /register and /login at route directory.
